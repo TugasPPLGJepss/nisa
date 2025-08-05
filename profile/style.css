@@ -1,25 +1,31 @@
 body {
-    margin :0;
+  margin: 0;
 }
 nav {
   display: flex;
   justify-content: space-between;
 }
-
 nav ul {
   display: flex;
   list-style: none;
   gap: 1rem;
 }
-nav a{
-    text-decoration: none; 
-    color:white;
+nav a {
+  text-decoration: none;
+  color: white;
 }
-header{
-    background-color: pink;
-    color: white;
-    padding: 1REM;
+header {
+  background-color: pink;
+  color: white;
+  padding: 1rem;
 }
-nav a:hover{
-    color:rgb(220, 83, 106);
+nav a:hover {
+  color: rgb(220, 83, 106);
+}
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-color: rgb(235, 208, 217);
+   padding: 3rem;
 }
