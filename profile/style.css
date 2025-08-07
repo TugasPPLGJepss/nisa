@@ -15,7 +15,7 @@ nav a {
   color: white;
 }
 header {
-  background-color: pink;
+  background-color: rgb(74, 58, 61); 
   color: white;
   padding: 1rem;
 }
@@ -28,4 +28,60 @@ nav a:hover {
   align-items: center;
    background-color: rgb(235, 208, 217);
    padding: 3rem;
+}
+.hero img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-right: 2rem;
+}
+.pr {
+  margin-left: 3rem;
+}
+.pr{
+  background-color: white;
+  
+}
+.kk{
+  margin-left: 3rem;
+}
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.skill {
+  background-color: #ddd;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;  
+}
+.project-card {
+  background-color: #fff3cd;
+  padding: 1rem;
+  border-left: 5px solid #ffc107;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.social-icons i {
+  font-size: 2rem;
+  margin-right: 15px;
+  color: #444;
+  transition: 0.3s;
+}
+
+.social-icons i:hover {
+  color: #007bff;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  margin-top: 2rem;
 }
