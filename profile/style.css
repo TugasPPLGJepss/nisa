@@ -1,17 +1,17 @@
 body {
-  margin: 0;
+  margin: 0; /* jarak luar*/
 }
 nav {
-  display: flex;
-  justify-content: space-between;
+  display: flex; /* mensejajarkan*/
+  justify-content: space-between; /* space-beetwen jarak antara*/
 }
-nav ul {
+nav ul {  /* ul itu list/daftar*/
   display: flex;
   list-style: none;
-  gap: 1rem;
+  gap: 1rem;  /* jarak antar item*/
 }
 nav a {
-  text-decoration: none;
+  text-decoration: none;  /* menghilangkan garis bawah*/
   color: white;
 }
 header {
@@ -24,15 +24,15 @@ nav a:hover {
 }
 .hero{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* mengatur perataan secara horizontal _____*/
+  align-items: center;  /* mengatur perataan secara vertikal  |  */
    background-color: rgb(235, 208, 217);
    padding: 3rem;
 }
 .hero img{
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
+  width: 150px;  /* lebar*/
+  height: 150px;  /* tinggi*/
+  border-radius: 100%;  /* melingkarkan */
   margin-right: 2rem;
 }
 .pr {
@@ -46,16 +46,16 @@ nav a:hover {
   margin-left: 3rem;
 }
 .skill-grid {
-  display: grid;
+  display: grid;  /* menata elemen ke dalam baris/kolom*/
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 2rem; /* jarak sisi kiri*/
+  margin-right: 2rem;  /* jarak sisi kanan*/
 }
 
 .skill {
   background-color: #ddd;
-  padding: 1rem;
+  padding: 1rem;  /* jarak antara luar element*/
   text-align: center;
   border-radius: 8px;  
 }
