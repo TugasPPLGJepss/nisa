@@ -17,7 +17,7 @@ nav a {
 header {
   background-color: rgb(74, 58, 61); 
   color: white;
-  padding: 1rem;
+  padding: 1rem; /* jarak kedalam*/
 }
 nav a:hover {
   color: rgb(220, 83, 106);
@@ -55,16 +55,16 @@ nav a:hover {
 
 .skill {
   background-color: #ddd;
-  padding: 1rem;  /* jarak antara luar element*/
+  padding: 1rem;  /* jarak antara dalam element*/
   text-align: center;
   border-radius: 8px;  
 }
 .project-card {
   background-color: #ffcdf0;
   padding: 1rem;
-  border-left: 5px solid #e90ca3;
+  border-left: 5px solid #e90ca3; /*mengatur sisi kiri*/
   border-radius: 5px;
-  margin-top: 1rem;
+  margin-top: 1rem;/*jarak atas*/
   margin-left: 2rem;
 }
 .social-icons i {
