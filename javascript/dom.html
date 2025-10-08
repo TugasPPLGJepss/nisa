@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganti Warna dengan Mouse</title>
+</head>
+<body id="body">
+    <p id="tulisan" onmouseenter="mengawati()" onmouseleave="paun()">haiiiiiiii kidsssss</p>
+
+    <script>
+        let body = document.getElementById("body");
+        let tulisan = document.getElementById("tulisan");
+
+        function mengawati() {
+            body.style.backgroundColor = "pink";
+            tulisan.style.backgroundColor = "aqua";
+            tulisan.style.width = "200px";
+            tulisan.innerHTML = "HEI HEI HEI HEI HEI HEI HEI HEI HEI HEI";
+        }
+
+        function paun() {
+            body.style.backgroundColor = "blue";
+            tulisan.style.backgroundColor = "pink";
+            tulisan.style.width = "200px";
+            tulisan.innerHTML = "haiiiiiiii kidsssss <img src='sky-night.jpeg'>";
+        }
+    </script>
+</body>
+</html>
